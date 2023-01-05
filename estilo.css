@@ -1,0 +1,131 @@
+.encabezado{
+    width: auto;
+    height: 550px;
+    border: 5px solid black;
+    background-image: url(https://d19m59y37dris4.cloudfront.net/directory/2-0-2/img/photo/photo-1490578474895-699cd4e2cf59.jpg);
+}
+#encabezadoImg{
+    height: 100vh;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://d19m59y37dris4.cloudfront.net/directory/2-0-2/img/photo/photo-1490578474895-699cd4e2cf59.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.circularImg {
+    border-radius: 50%;
+  }
+  #sobremi{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+nav{
+    background-color:  rgba(241, 88, 16, 0.7);
+    
+}
+footer{
+    background-color:  rgba(241, 88, 16, 1);
+}
+#aptitudes{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+.but{
+    margin: 50px;
+    
+    
+}
+.butMi{
+    color: white;
+    
+}
+.butMi:hover{
+    color: white;
+}
+#tarjeta{
+    padding: 20px;
+    margin: 40px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tarjetas{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    
+
+}
+.imgtarjeta{
+    width: 150px;
+    height: 150px;   
+}
+#estudios{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+#porfolio{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+.carrusel{
+   height: 85vh;
+    display: flex;
+    margin-top: 20px;
+    
+}
+#contactame{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
