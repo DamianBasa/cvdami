@@ -41,6 +41,7 @@
           </div>
         </div>
       </nav>
+      <!--encavezado-->
     <div class="row" id="encabezadoImg">
         <div class="col-md-12">
             <h1>Marketing Digital y Front-End</h1>
@@ -51,7 +52,7 @@
         <div class="col-sm-4"><button type="button" class="btn btn-outline-primary btn-lg but"><a href="#sobremi" class="butMi">Sobre mi</a></button></div>
     
     </div>
-
+<!--sobre mi-->
     <div class="row" id="sobremi">
         <div class="col-sm-2"></div>
         <div class="col-sm-4" id="sobremiImg"><img src="https://thumbs.dreamstime.com/z/santa-claus-de-cara-cuadrada-37385063.jpg"  alt="Cinque Terre" height="500px" width="250px"></div>
@@ -61,7 +62,7 @@
         </div>
         <div class="col-sm-2"></div>
     </div>
-    
+<!--aptitudes-->    
     <section class="row text-center" id="aptitudes">
         <h3>APTITUDES</h3>
         <section class="tarjetas">
@@ -90,7 +91,7 @@
         </div>
         </section>
     </section>
-
+<!--estudios-->
     <section class="row text-center" id="estudios" >
         <h3>ESTUDIOS</h3>
         <section class="tarjetas">
@@ -169,26 +170,33 @@
             </button>
           </div>
     </div>
-    <div class="row" id="contactame" >
+
+    <!--contactame-->
+    <div class="row text-center"  id="contactame">
         <h2>Contactame</h2>
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
+        <form id="contactame" class="container" method="post">
+          <label for="fnombre">Nombre:</label>
+            <input type="text" id="textform"></input>
+            <label for="fmail">E-mail:</label>
+            <input type="email" id="textform"></input>
+            <label for="fcomentario" >Comentario:</label>
+            <textarea  id="textComentario"></textarea>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
     </div>
-    <footer class="text-center"> <p>Web diseñada por Damián Basabilbaso</p></footer>
+    <footer class="text-center"> 
+      <div id="contenedorFooter">
+        <div id="footercaja">
+          <h2>Dirección</h2>
+          <p>Avellaneda, Santa Fe</p>
+          <p>Argentina</p>
+        </div>
+        <div id="footercaja">
+          <h2>Redes</h2>
+        </div>
+      </div>
+      <div id="diseñopor"><p>Web diseñada por Damián Basabilbaso</p></div>
+    </footer>
 </div>
 </body>
 </html>
