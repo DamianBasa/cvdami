@@ -154,7 +154,7 @@ footer{
     padding-top: 10px;
 }
 #textform{
-    width: 350px;
+    width: 45%;
     height: 35px;
     border-radius: 10px;
     padding: 0 4px 0 4px;
@@ -163,7 +163,7 @@ footer{
     margin: 10px;
 }
 #textComentario{
-    width: 350px;
+    width: 45%;
     height: 80px;
     border-radius: 10px;
     padding: 0 4px 0 4px;
