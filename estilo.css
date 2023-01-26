@@ -138,7 +138,7 @@ footer{
     justify-content: space-between;
 }
 #footercaja{
-    width: 250px;
+    width: 50%;
     align-items: center;
     border: 1px solid black;
     padding: 20px;
