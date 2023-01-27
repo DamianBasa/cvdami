@@ -2,7 +2,7 @@
     width: auto;
     height: 550px;
     border: 5px solid black;
-    background-image: url(https://d19m59y37dris4.cloudfront.net/directory/2-0-2/img/photo/photo-1490578474895-699cd4e2cf59.jpg);
+    background-image: url(img/cabecera.png);
 }
 #encabezadoImg{
     height: 100vh;
@@ -13,7 +13,7 @@
     justify-content: center;
     text-align: center;
     background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://d19m59y37dris4.cloudfront.net/directory/2-0-2/img/photo/photo-1490578474895-699cd4e2cf59.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/0127.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,6 +22,7 @@
 .circularImg {
     border-radius: 50%;
   }
+  /*caja contenedora de sobre mi, lo que hago es darle espacio arriba y abajo, alinio todo al centro y que sea en forma de fila*/
   #sobremi{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -32,7 +33,18 @@
     flex-wrap: wrap;
     text-align: center;
     background-color: rgb(255, 255, 255);
+  
     
+}
+#sobremiImg{
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+#sobremiText{
+    padding: 30px;
+    width: 500px;
 }
 
 nav{
@@ -132,7 +144,7 @@ footer{
 }
 #contenedorFooter{
     height: 200px;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -140,7 +152,6 @@ footer{
 #footercaja{
     width: 50%;
     align-items: center;
-    border: 1px solid black;
     padding: 20px;
     margin: 5px;
     color: white;
@@ -170,4 +181,62 @@ footer{
     border-style: none;
     background-color:lightgray;
     margin: 10px;
+}
+#ulredes{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    
+}
+#olinsta{
+    background-image: url(img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:30px;
+    height: 30px;
+    margin: 5px;
+   
+}
+#olinsta:hover{
+    background-image: url(img/instagram1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+#olface{
+    background-image: url(img/facebook2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:30px;
+    height: 30px;
+    margin: 5px;
+    
+}
+#olface:hover{
+    background-image: url(img/facebook3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#oltwitter{
+    background-image: url(img/gorjeo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:30px;
+    height: 30px;
+    margin: 5px;
+}
+#oltwitter:hover{
+    background-image: url(img/gorjeo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }

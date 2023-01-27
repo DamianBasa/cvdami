@@ -9,10 +9,12 @@
     <title>Damian Basabilbaso</title>
 </head>
 <body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
    
 <div class="container-fluid" >
+
     <!--Navegacion-->
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" >
         <div class="container-fluid">
@@ -32,7 +34,7 @@
                 <a class="nav-link" href="#estudios">ESTUDIOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#porfolio">PORFOLIO</a>
+                <a class="nav-link" href="#porfolio">HOBBIE</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contactame">CONTACTAME</a>
@@ -41,6 +43,7 @@
           </div>
         </div>
       </nav>
+
       <!--encavezado-->
     <div class="row" id="encabezadoImg">
         <div class="col-md-12">
@@ -52,75 +55,89 @@
         <div class="col-sm-4"><button type="button" class="btn btn-outline-primary btn-lg but"><a href="#sobremi" class="butMi">Sobre mi</a></button></div>
     
     </div>
+
 <!--sobre mi-->
     <div class="row" id="sobremi">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4" id="sobremiImg"><img src="https://thumbs.dreamstime.com/z/santa-claus-de-cara-cuadrada-37385063.jpg"  alt="Cinque Terre" height="500px" width="250px"></div>
-        <div class="col-sm-4">
-            <div class="row"><h2 class="text-center">ACERCA DE MI</h2></div>
-            <div class="row"><p class="row text-center">Me encanta la tecnologia desde muy pequeño, por tal motivo fui a la escuela tecnica,</p></div>
+       
+        <div class="col-sm-4" id="sobremiImg">
+          <img src="img/sobremi2.png"  alt="Cinque Terre" height="500px" >
         </div>
-        <div class="col-sm-2"></div>
+
+        <div class="col-sm-4" id="sobremiText">
+            <div class="row"><h2 class="h2 text-center">ACERCA DE MI</h2></div>
+            <div><p class="lead">Me encanta la tecnologia desde muy pequeño, por tal motivo fui a una escuela tecnica, a mis 13 años aproximadamente 
+              hice un curso de reparación de PC y me di cuenta que ,no solo me gustaba repararla, sino que tambien crear cosas con ella, fue cuando hice otro curso de diseño gráfico.
+              En este ultimo curso me enseñaro a utilizar herramientas de Adobe, como por ejemplo Ai, Ps ,DW ,entre otros. Eso me llevo a una nueva etapa, empece con mi minimo conocimiento a verder 
+              tarjetas de cumpleaños y maquetacion de web. 
+              Me faltaba aprender a programar del lado del servidor, por lo que hice otro curso de programacion web en PHP.
+              Para no extenderme mucho, emprendi en una gráfica <b>DB Diseño y me encuentro estudiando Marketing y Publicidad Digital</b> en la Universidad Siglo XXI
+            </p>
+          </div>
+
+        </div>
+       
     </div>
+
 <!--aptitudes-->    
     <section class="row text-center" id="aptitudes">
         <h3>APTITUDES</h3>
         <section class="tarjetas">
              <div class="card" id="tarjeta">
-                <img src="https://ezzcream.github.io/About-Me/img/front.png" class="card-img-top imgtarjeta" alt="" width="150px" height="150px"/>
+                <img src="img/frontend.jpg" class="card-img-top imgtarjeta" alt="" width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">Front-End</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Manejo los lenguajes HTML 5 , CSS y JavaScript. <br> Con estos lenguajes puedo maquetar la web según demande el cliente.</p>
                 </div>
             </div>
             <div class="card" id="tarjeta">
-                <img src="https://thumbs.dreamstime.com/z/santa-claus-de-cara-cuadrada-37385063.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
+                <img src="img/marketing.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">Marketing y Publicidad Digital</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Realizo conocimiento del mercado y reconocimiento del Buyer persona, para saber direccionar el proyecto del marketing y asi lograr una mayor venta.</p>
                 </div>
             </div>
         
         <div class="card" id="tarjeta">
-                <img src="https://thumbs.dreamstime.com/z/santa-claus-de-cara-cuadrada-37385063.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
+                <img src="img/seo.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">SEO</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">La combinación del Marketing y el frontend es fundamental para hacer que una web se posicione en los buscador organicamente.</p>
                 </div>
             
         </div>
         </section>
     </section>
+
 <!--estudios-->
     <section class="row text-center" id="estudios" >
         <h3>ESTUDIOS</h3>
         <section class="tarjetas">
             <div class="" id="tarjeta">
-                <img src="https://ezzcream.github.io/About-Me/img/front.png" class="card-img-top imgtarjeta" alt="" width="150px" height="150px"/>
+                <img src="img/siglo21.png" class="card-img-top imgtarjeta" alt="" width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">UNIVERSIDAD SIGLO XXI</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Actualmente me encuentro estudiando en la Universidad Siglo XXI Tec. en Marketing y Publicidad Digital</p>
                 </div>
             </div>
         <div class="" id="tarjeta">
-                <img src="https://thumbs.dreamstime.com/z/santa-claus-de-cara-cuadrada-37385063.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
+                <img src="img/coderhouse.webp" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">CODER HOUSE</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Me capacite en <a href="https://www.coderhouse.com/certificados/639bcb2e3f82fb000e0636c1">Growth Marketing</a> </p>
                 </div>
             </div>
         <div class="" id="tarjeta">
-                <img src="https://thumbs.dreamstime.com/z/santa-claus-de-cara-cuadrada-37385063.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
+                <img src="img/Educacion IT logo.png" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">EDUCACION IT</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Me capacite en <a href="https://api.educacionit.com/pdf/certificados/damian-basabilbaso-666830/55981">Marketing de Contenidos y Virualización</a></p>
                 </div>
             </div>
         <div class="" id="tarjeta">
-                <img src="https://thumbs.dreamstime.com/z/santa-claus-de-cara-cuadrada-37385063.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
+                <img src="img/mercadoads.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
-                    <h5 class="card-title">SEO</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Mercado Libre</h5>
+                    <p class="card-text"><a href="https://academy.mercadoads.com/student/award/ogMCYpCXz3n4oDM49nqXjkwn">Product Ads</a></p>
                 </div>
             </div>
         
@@ -130,35 +147,42 @@
 
     <!--PORFOLIO-->
     <div class="row" id="porfolio" >
-        <h2>Porfolio</h2>
+        <h2>Mis hobbie</h2>
+
         <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+
             <div class="carousel-inner carrusel">
+
               <div class="carousel-item active">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Pisac_Ruins%2C_Cusco%2C_Peru.jpg/850px-Pisac_Ruins%2C_Cusco%2C_Peru.jpg" height="850px" class="d-block w-100" alt="...">
+                <img src="img/IMG_20210307_095126.jpg"  class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>WEB y Redes sociales Avellaneda Automotores</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <h5>Ciclismo recreativo</h5>
+                  <p>Ya hace algunos años que con un grupo de amigos, realizamos esta actividad una vez por semana.</p>
                 </div>
               </div>
+
               <div class="carousel-item">
-                <img src="https://d19m59y37dris4.cloudfront.net/directory/2-0-2/img/photo/photo-1490578474895-699cd4e2cf59.jpg" height="850px" class="d-block w-100" alt="...">
+                <img src="img/P1190061.JPG"  class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Fragancia Avellaneda</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
+                  <h5>Kayak</h5>
+                  <p>Me encanta disfrutar de la naturaleza al máximo.</p>
                 </div>
               </div>
+
               <div class="carousel-item">
-                <img src="https://ezzcream.github.io/About-Me/img/setup3.jpg" height="850px" class="d-block w-100" alt="...">
+                <img src="img/trekking2.jpg"  class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>DB Diseño</h5>
-                  <p>Optimización de la Web y redes sociales</p>
+                  <h5 class="h5">Trekking</h5>
+                  <p>Trekking en cerros de córdoba</p>
                 </div>
               </div>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -184,19 +208,36 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
     </div>
-    <footer class="text-center"> 
-      <div id="contenedorFooter">
-        <div id="footercaja">
-          <h2>Dirección</h2>
-          <p>Avellaneda, Santa Fe</p>
-          <p>Argentina</p>
-        </div>
-        <div id="footercaja">
-          <h2>Redes</h2>
-        </div>
-      </div>
-      <div id="diseñopor"><p>Web diseñada por Damián Basabilbaso</p></div>
-    </footer>
+ 
 </div>
+<!--footer fuera del div contenedor de bootstrap para que pueda abarcar el ancho de la pantalla-->
+<footer class="text-center"> 
+  <div id="contenedorFooter">
+    <div id="footercaja">
+      <h2>Dirección</h2>
+      <p>Santa Fe</p>
+      <p>Argentina</p>
+    </div>
+    <div id="footercaja">
+      <h2>Redes</h2>
+      <div id="ulredes">
+        <a href="https://instagram.com/dbasabilbaso"><div id="olinsta"></div></a>
+        <a href="https://facebook.com/basabilbaso"><div id="olface"></div></a>
+        <a href="https://twitter.com/damianbasa"><div id="oltwitter"></div></a>
+      </ul>
+      </div>
+
+    </div>
+  </div>
+  <div id="diseñopor"><p>Web diseñada por Damián Basabilbaso</p></div>
+</footer>
+
+<!-- Función jQuery para cerrar el navbar automáticamente -->
+<script>
+  $('.navbar-nav>li>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+</script>
+
 </body>
 </html>
