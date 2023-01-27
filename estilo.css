@@ -240,3 +240,6 @@ footer{
     background-size: cover;
     
 }
+.text-justify {
+    text-align: justify;
+  }
