@@ -37,10 +37,21 @@
     
 }
 #sobremiImg{
-    padding: 30px;
+    /*padding: 30px;*/
+    /*background-image: url(img/sobremi3.png);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    border: 5px solid orangered;
+    border-radius: 50%;
+    height: 50%;
+    object-fit: contain;*/
+    position: relative;
     width: 500px;
     display: flex;
     justify-content: center;
+   
+   
 }
 #sobremiText{
     padding: 30px;
@@ -242,4 +253,21 @@ footer{
 }
 .text-justify {
     text-align: justify;
+    height: 550px;
   }
+#contedorMenuSobreMi{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.claseMenuSobreMi{
+    background-color: blue;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+}
+.claseMenuSobreMi:hover{
+    background-color: chartreuse;
+}

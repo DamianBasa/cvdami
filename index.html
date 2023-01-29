@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
 <meta property="og:image" content="https://damianbasa.github.io/cvdami/img/sobremi2.png" />
 
 
@@ -16,7 +16,9 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-   
+<!--Este es el archivo creado por mi para hacer cambiar el texto que habla sobre mi-->   
+<script src="funciones.js"></script>
+
 <div class="container-fluid" >
 
     <!--Navegacion-->
@@ -53,7 +55,7 @@
         <div class="col-md-12">
             <h1>Marketing Digital y Front-End</h1>
         </div>
-        <div class="col-sm-4"><p class="text-center">Hola mi nombre es</p></div>
+        <div class="col-sm-4"><p class="text-center">Hola, mi nombre es</p></div>
         <div class="col-sm-4"><h2 class="text-center">Damián</h2>
                     </div>
         <div class="col-sm-4"><button type="button" class="btn btn-outline-primary btn-lg but"><a href="#sobremi" class="butMi">Sobre mi</a></button></div>
@@ -64,12 +66,18 @@
     <div class="row" id="sobremi">
        
         <div class="col-sm-4" id="sobremiImg">
-          <img src="img/sobremi2.png"  alt="Cinque Terre" height="500px" >
+            <img src="img/sobremi2.png"  alt="Cinque Terre" height="500px" >
         </div>
 
         <div class="col-sm-4" id="sobremiText">
-            <div class="row"><h2 class="h2 text-center">ACERCA DE MI</h2></div>
-            <div><p class="lead text-justify">Me encanta la tecnologia desde muy pequeño, por tal motivo fui a una escuela tecnica, a mis 13 años aproximadamente 
+           <!--contenedor menu sobre mi, fechas y experiencia laboral-->
+         <div id="contedorMenuSobreMi">
+          <div class="claseMenuSobreMi" onclick="sobreMiMenu(1)" onmouseover="sobreMiMenu(1)">Menu1</div>
+          <div class="claseMenuSobreMi" onclick="sobreMiMenu(2)" onmouseover="sobreMiMenu(2)">menu2</div>
+          <div class="claseMenuSobreMi" onclick="sobreMiMenu(3)" onmouseover="sobreMiMenu(3)">menu3</div>
+        </div>
+            <div class="row"><h2 class="h2 text-center" id="tituloTexto">ACERCA DE MI</h2></div>
+            <div><p class="lead text-justify" id="texto">Me encanta la tecnologia desde muy pequeño, por tal motivo fui a una escuela tecnica, a mis 13 años aproximadamente 
               hice un curso de reparación de PC y me di cuenta que ,no solo me gustaba repararla, sino que tambien crear cosas con ella, fue cuando hice otro curso de diseño gráfico.
               En este ultimo curso me enseñaro a utilizar herramientas de Adobe, como por ejemplo Ai, Ps ,DW ,entre otros. Eso me llevo a una nueva etapa, empece con mi minimo conocimiento a verder 
               tarjetas de cumpleaños y maquetacion de web. 
@@ -79,6 +87,7 @@
           </div>
 
         </div>
+       
        
     </div>
 
@@ -202,7 +211,7 @@
     <!--contactame-->
     <div class="row text-center"  id="contactame">
         <h2>Contactame</h2>
-        <form id="contactame" class="container" method="post">
+        <form id="contactame" class="container" method="post" action="mailto:damian.basa@gmail.com">
           <label for="fnombre">Nombre:</label>
             <input type="text" id="textform"></input>
             <label for="fmail">E-mail:</label>
