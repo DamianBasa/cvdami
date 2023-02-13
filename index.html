@@ -16,8 +16,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-<!--Este es el archivo creado por mi para hacer cambiar el texto que habla sobre mi-->   
-<script src="funciones.js"></script>
+
 
 <div class="container-fluid" >
 
@@ -58,7 +57,8 @@
         <div class="col-sm-4"><p class="text-center">Hola, mi nombre es</p></div>
         <div class="col-sm-4"><h2 class="text-center">Damián</h2>
                     </div>
-        <div class="col-sm-4"><button type="button" class="btn btn-outline-primary btn-lg but"><a href="#sobremi" class="butMi">Sobre mi</a></button></div>
+                    <!--btn-outline-primary-->
+        <div class="col-sm-4"><button type="button" class="btn  btn-lg but butMi"><a href="#sobremi" class="btMi">Sobre mi</a></button></div>
     
     </div>
 
@@ -71,10 +71,10 @@
 
         <div class="col-sm-4" id="sobremiText">
            <!--contenedor menu sobre mi, fechas y experiencia laboral-->
-         <div id="contedorMenuSobreMi">
-          <div class="claseMenuSobreMi" onclick="sobreMiMenu(1)" onmouseover="sobreMiMenu(1)">Menu1</div>
-          <div class="claseMenuSobreMi" onclick="sobreMiMenu(2)" onmouseover="sobreMiMenu(2)">menu2</div>
-          <div class="claseMenuSobreMi" onclick="sobreMiMenu(3)" onmouseover="sobreMiMenu(3)">menu3</div>
+         <div id="contedorMenuSobreMi" class="contenedorMenuSobreMi">
+          <div class="claseMenuSobreMi" id="acercaDeMi" >Menu1</div>
+          <div class="claseMenuSobreMi" id="miCumpleaños" >menu2</div>
+          <div class="claseMenuSobreMi" id="miExperiencia">menu3</div>
         </div>
             <div class="row"><h2 class="h2 text-center" id="tituloTexto">ACERCA DE MI</h2></div>
             <div><p class="lead text-justify" id="texto">Me encanta la tecnologia desde muy pequeño, por tal motivo fui a una escuela tecnica, a mis 13 años aproximadamente 
@@ -95,14 +95,14 @@
     <section class="row text-center" id="aptitudes">
         <h3>APTITUDES</h3>
         <section class="tarjetas">
-             <div class="card" id="tarjeta">
+             <div class="card tarjeta" id="tarjetaUno">
                 <img src="img/frontend.jpg" class="card-img-top imgtarjeta" alt="" width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">Front-End</h5>
                     <p class="card-text">Manejo los lenguajes HTML 5 , CSS y JavaScript. <br> Con estos lenguajes puedo maquetar la web según demande el cliente.</p>
                 </div>
             </div>
-            <div class="card" id="tarjeta">
+            <div class="card tarjeta" id="tarjeta">
                 <img src="img/marketing.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">Marketing y Publicidad Digital</h5>
@@ -110,7 +110,7 @@
                 </div>
             </div>
         
-        <div class="card" id="tarjeta">
+        <div class="card tarjeta" id="tarjeta">
                 <img src="img/seo.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">SEO</h5>
@@ -125,28 +125,28 @@
     <section class="row text-center" id="estudios" >
         <h3>ESTUDIOS</h3>
         <section class="tarjetas">
-            <div class="" id="tarjeta">
+            <div class="tarjeta" id="tarjeta">
                 <img src="img/siglo21.png" class="card-img-top imgtarjeta" alt="" width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">UNIVERSIDAD SIGLO XXI</h5>
                     <p class="card-text">Actualmente me encuentro estudiando en la Universidad Siglo XXI Tec. en Marketing y Publicidad Digital</p>
                 </div>
             </div>
-        <div class="" id="tarjeta">
+        <div class="tarjeta" id="tarjeta">
                 <img src="img/coderhouse.webp" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">CODER HOUSE</h5>
                     <p class="card-text">Me capacite en <a href="https://www.coderhouse.com/certificados/639bcb2e3f82fb000e0636c1">Growth Marketing</a> </p>
                 </div>
             </div>
-        <div class="" id="tarjeta">
+        <div class="tarjeta" id="tarjeta">
                 <img src="img/Educacion IT logo.png" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">EDUCACION IT</h5>
                     <p class="card-text">Me capacite en <a href="https://api.educacionit.com/pdf/certificados/damian-basabilbaso-666830/55981">Marketing de Contenidos y Virualización</a></p>
                 </div>
             </div>
-        <div class="" id="tarjeta">
+        <div class="tarjeta" id="tarjeta">
                 <img src="img/mercadoads.jpg" class="card-img-top imgtarjeta" alt=""  width="150px" height="150px"/>
                 <div class="card-body" >
                     <h5 class="card-title">Mercado Libre</h5>
@@ -211,11 +211,14 @@
     <!--contactame-->
     <div class="row text-center"  id="contactame">
         <h2>Contactame</h2>
-        <form id="contactame" class="container" method="post" action="mailto:damian.basa@gmail.com">
+        <hr>
+        <form id="contactame" class="container" method="post" action="https://formspree.io/f/damian.basa@gmail.com">
           <label for="fnombre">Nombre:</label>
             <input type="text" id="textform"></input>
             <label for="fmail">E-mail:</label>
             <input type="email" id="textform"></input>
+            <label for="fnumeroTel">Numero de telefono:</label>
+            <input type="tel" id="textform"></input>
             <label for="fcomentario" >Comentario:</label>
             <textarea  id="textComentario"></textarea>
             <button type="submit" class="btn btn-primary">Enviar</button>
@@ -223,6 +226,7 @@
     </div>
  
 </div>
+
 <!--footer fuera del div contenedor de bootstrap para que pueda abarcar el ancho de la pantalla-->
 <footer class="text-center"> 
   <div id="contenedorFooter">
@@ -251,6 +255,8 @@
       $('.navbar-collapse').collapse('hide');
   });
 </script>
+<!--Este es el archivo creado por mi para hacer cambiar el texto que habla sobre mi-->   
+<script src="funciones.js"></script>
 
 </body>
 </html>
