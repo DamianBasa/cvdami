@@ -6,6 +6,7 @@
 }
 #encabezadoImg{
     height: 100vh;
+    width:auto;
     color: white;
     align-items: center;
     display: flex;
@@ -17,6 +18,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+   background-attachment: fixed;
 }
 
 .circularImg {
@@ -33,7 +35,8 @@
     flex-wrap: wrap;
     text-align: center;
     background-color: rgb(255, 255, 255);
-  
+    margin-bottom: 100px;
+     
     
 }
 #sobremiImg{
@@ -45,9 +48,10 @@
     border: 5px solid orangered;
     border-radius: 50%;
     height: 50%;
-    object-fit: contain;*/
-    position: relative;
+    object-fit: contain;
+    position: relative;*/
     width: 500px;
+    height: auto;
     display: flex;
     justify-content: center;
    
@@ -56,6 +60,7 @@
 #sobremiText{
     padding: 30px;
     width: 500px;
+    height: auto;
 }
 
 nav{
@@ -81,14 +86,26 @@ footer{
     
     
 }
+.btMi{
+    color:rgba(241, 88, 16, 1);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btMi:hover{
+    color: rgba(241, 88, 16, 1);
+}
 .butMi{
-    color: white;
-    
+    border:1px solid rgba(241, 88, 16, 1); 
+    padding: 20px;
+    border-radius: 10px;
 }
 .butMi:hover{
-    color: white;
+    background-color: white;
+    text-decoration: none;
+    border:1px solid white; 
+    border-radius: 10px; 
 }
-#tarjeta{
+.tarjeta{
     padding: 20px;
     margin: 40px;
     width: 350px;
@@ -98,7 +115,9 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
 }
+
 .tarjetas{
     width: 100%;
     
@@ -260,6 +279,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
 
 }
 .claseMenuSobreMi{
