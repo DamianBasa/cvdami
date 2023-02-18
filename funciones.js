@@ -7,7 +7,7 @@ for(let a=0; a<sobreMenuMi.length;a++){
         if(a==0){
             titulo.innerHTML="ACERCA DE MI"
             //acá pongo que cambie el html con algunas opciones (texto) que hable sobre mi
-            texto.innerHTML="<p>Soy técnico Electromecánico,pero toda la vida me he considerado emprendedor. Actualmente soy dueño de la gráfica DB Diseño y también me encuentro estudiando técnico en Marketing y Publicidad digital en la universidad Siglo XXI.</p>"
+            texto.innerHTML="<p>Soy técnico Electromecánico, pero toda la vida me he considerado emprendedor. Actualmente soy dueño de la gráfica DB Diseño y también me encuentro estudiando técnico en Marketing y Publicidad digital en la universidad Siglo XXI.</p>"
             texto.style.height="auto";
         }
         else if (a==1){
