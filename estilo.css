@@ -40,16 +40,6 @@
     
 }
 #sobremiImg{
-    /*padding: 30px;*/
-    /*background-image: url(img/sobremi3.png);
-    background-repeat: no-repeat;
-
-    background-size: contain;
-    border: 5px solid orangered;
-    border-radius: 50%;
-    height: 50%;
-    object-fit: contain;
-    position: relative;*/
     width: 500px;
     height: auto;
     display: flex;
@@ -221,7 +211,7 @@ footer{
     
 }
 #olinsta{
-    background-image: url(img/instagram.png);
+    color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -231,51 +221,17 @@ footer{
    
 }
 #olinsta:hover{
-    background-image: url(img/instagram1.png);
+    color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
    
 }
-#olface{
-    background-image: url(img/facebook2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width:30px;
-    height: 30px;
-    margin: 5px;
-    
-}
-#olface:hover{
-    background-image: url(img/facebook3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-#oltwitter{
-    background-image: url(img/gorjeo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width:30px;
-    height: 30px;
-    margin: 5px;
-}
-#oltwitter:hover{
-    background-image: url(img/gorjeo1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
 .text-justify {
     text-align: justify;
-    height: 550px;
+    height: auto;
   }
 #contedorMenuSobreMi{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -283,11 +239,11 @@ footer{
 
 }
 .claseMenuSobreMi{
-    background-color: blue;
+    color: black;
     height: 50px;
     margin: 5px;
     padding: 10px;
 }
 .claseMenuSobreMi:hover{
-    background-color: chartreuse;
+    color: orangered;
 }
